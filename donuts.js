@@ -53,7 +53,7 @@ let init = function () {
 };
 
 let mainLoop = function () {
-    createDonut();
+    // createDonut();
     donuts.forEach(d => d.position.y -= ADD);
     renderer.render(scene, camera);
     requestAnimationFrame(mainLoop);
